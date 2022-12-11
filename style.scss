@@ -434,6 +434,10 @@ ul {
         right: 100%;
       }
     }
+
+    &:hover > .choice-href {
+      color: var(--white);
+    }
   }
 
   & ul > li:hover > ul {
@@ -800,8 +804,12 @@ ul {
     width: 300px;
   }
 
-  .ipt {
+  .ipt, .sel-main {
     width: 300px;
     height: 40px;
+  }
+
+  .sel-second-level {
+    width: 300px;
   }
 }
