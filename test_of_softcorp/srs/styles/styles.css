@@ -66,7 +66,7 @@ a {
 }
 
 .header-background {
-  background-image: url('./bg_people.jpg');
+  background-image: url('../../images/bg_people.jpg');
   background-attachment: fixed;
 }
 
@@ -173,7 +173,7 @@ a {
 }
 
 .content-background {
-  background-image: url('./bg_main.jpg');
+  background-image: url('../../images/bg_main.jpg');
 }
 
 .content {

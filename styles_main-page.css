@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@800&display=swap';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background-image: url("background.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+  height: 800px;
+  background-color: rgb(23 23 23 / 25%);
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  color: #5b5e6d;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  color: #c7c7cf;
+  padding-bottom: 10px;
+}
+
+ul a {
+  color: #cfcfff;
+}
+
+ul a:hover {
+  color: #646489;
+}
+
+@media only screen and (max-width: 700px) {
+  .background {
+    background-size: contain;
+  }
+
+  h1 {
+    padding-top: 0;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    line-height: 22px;
+    text-align: right;
+  }
+
+  ul {
+    text-align: end;
+  }
+
+  ul a {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 472px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.0rem;
+    line-height: 19px;
+  }
+}
