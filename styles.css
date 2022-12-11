@@ -32,21 +32,27 @@ a {
 ul {
   padding: 0;
   list-style-type: none;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+ul li {
+  grid-column: 2 / 3;
 }
 
 h1 {
   color: #5b5e6d;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-top: 60px;
 }
 
 .title {
   font-weight: 400;
   font-size: 26px;
-  line-height: 42px;
+  line-height: 32px;
   color: #c7c7cf;
   padding-bottom: 10px;
+
 }
 
 ul a {
@@ -57,23 +63,24 @@ ul a:hover {
   color: #646489;
 }
 
-@media only screen and (max-width: 700px) {
-  .background {
-    background-size: contain;
+@media only screen and (max-width: 900px) {
+  ul {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  h1 {
+    padding-bottom: 20px;
   }
 
-  h1 {
-    padding-top: 0;
+  .background {
+    background-size: contain;
   }
 
   .title {
     font-size: 1.1rem;
     line-height: 22px;
-    text-align: right;
-  }
-
-  ul {
-    text-align: end;
   }
 
   ul a {
@@ -89,5 +96,20 @@ ul a:hover {
   .title {
     font-size: 1.0rem;
     line-height: 19px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  h1 {
+    font-size: 1.1rem;
+    padding-top: 30px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  ul a {
+    font-size: 0.8rem;
   }
 }
