@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --white-background: #F5F5F5;
+  --main-color: #620F5F;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 150px;
+  margin: 0 auto;
+}
+
+.mobile-display {
+  display: none;
+}
+
+/*menu-block*/
+.menu-block_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.menu-block_hrefs {
+  margin-top: 154px;
+}
+
+.menu-block_txt {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--black);
+  height: 107px;
+  margin-left: 150px;
+}
+
+.menu-block_txt:hover {
+  color: #771373;
+}
+
+.line-svg_block {
+  position: absolute;
+  top: 70px;
+  paddin-bottom: 187px;
+}
+
+.first-line {
+  margin-bottom: 85px;
+}
+
+.third-line {
+  margin-top: -88px;
+  margin-bottom: 72px;
+}
+
+.fifth-line {
+  margin-top: -88px;
+}
+
+@media only screen and (max-width: 320px) {
+  .mobile-display {
+    display: block;
+  }
+
+  .menu-block_header-background {
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 130%;
+    width: 100%;
+  }
+
+  .menu-block_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px 14px 11px 13px;
+    height: 50px;
+  }
+
+  .logo-svg {
+    width: 135px;
+    height: 25px;
+  }
+
+  .one-wave-menu {
+    width: 35px;
+    height: 5px;
+  }
+
+  .menu-block_hrefs {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    margin-top: 107px;
+  }
+
+  .menu-block_header__btn {
+    width: 82px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white);
+    background: var(--main-color);
+    border-radius: 32px;
+  }
+
+  .menu-block_txt {
+    height: 16px;
+    margin-left: 78px;
+  }
+
+  .line-svg_block {
+    top: -95px;
+    margin-left: -25%;
+    padding-bottom: 64px;
+  }
+
+  .fifth-line {
+    margin-top: 0;
+  }
+}
