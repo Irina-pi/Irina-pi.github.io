@@ -771,6 +771,286 @@ nav {
   gap: 14px;
 }
 
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 13px;
+    margin: 0 auto;
+  }
+
+  .header {
+    min-width: 768px;
+    padding-top: 12px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 518px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 10;
+    background-color: #F9F9F9;
+  }
+
+  .logo-svg {
+    width: 132px;
+    height: 25px;
+  }
+
+  nav {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header__btn {
+    width: 79px;
+    height: 27px;
+    font-size: 12px;
+  }
+
+  .menu-svg {
+    width: 32px;
+    height: 20px;
+  }
+
+  .animation-block {
+    display: block;
+  }
+
+  .animation-block__background {
+    width: 768px;
+    height: 241px;
+    background-size: cover;
+    position: relative;
+    top: 124px;
+    left: -2px;
+    z-index: 0;
+  }
+
+  .animation-block__text {
+    font-size: 36px;
+    line-height: 90%;
+    width: 292px;
+    position: absolute;
+    bottom: calc(100% - 24px);
+  }
+
+  .animation-block__drug-block {
+    display: block;
+    margin-top: 27px;
+    margin-left: -36px;
+  }
+
+  .drug-img_100, .drug-img_50-450, .drug-img_100-900 {
+    width: 321px;
+    height: 216px;
+  }
+
+  .animation-block__drug-block_img-block {
+    padding-top: 0;
+  }
+
+  .animation-block__btn {
+    width: 132px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B0E58;
+    filter: none;
+    border: 1px solid #5B0E58;
+    margin-bottom: 2px;
+  }
+
+  .animation-block__drug-block_set-block {
+    width: 132px;
+    gap: 12px;
+    position: relative;
+    left: calc(50% - 66px);
+  }
+
+  .animation-block__drug-block_set-block_vector-block {
+    gap: 15px;
+  }
+
+  .back-svg, .next-svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .back-svg > circle, path {
+    stroke: #5B0E58;
+  }
+
+  .next-svg > circle, path {
+    stroke: #5B0E58;
+  }
+
+  .disclaimer {
+    height: 62px;
+    min-width: 768px;
+    filter: none;
+    padding: 9px 13px 0 11px;
+    background: #F9F9F9;
+    border-radius: 18px;
+    position: absolute;
+    top: 456px;
+  }
+
+  .disclaimer-text {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.04em;
+  }
+
+  .close-svg {
+    width: 8px;
+    height: 9px;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  .desktop {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 13px;
+    margin: 0 auto;
+  }
+
+  .header {
+    min-width: 416px;
+    padding-top: 12px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 518px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 10;
+    background-color: #F9F9F9;
+  }
+
+  .logo-svg {
+    width: 132px;
+    height: 25px;
+  }
+
+  nav {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header__btn {
+    width: 79px;
+    height: 27px;
+    font-size: 12px;
+  }
+
+  .menu-svg {
+    width: 32px;
+    height: 20px;
+  }
+
+  .animation-block {
+    display: block;
+  }
+
+  .animation-block__background {
+    width: 416px;
+    height: 241px;
+    background-size: cover;
+    position: relative;
+    top: 124px;
+    left: -2px;
+    z-index: 0;
+  }
+
+  .animation-block__text {
+    font-size: 36px;
+    line-height: 90%;
+    width: 292px;
+    position: absolute;
+    bottom: calc(100% - 24px);
+  }
+
+  .animation-block__drug-block {
+    display: block;
+    margin-top: 27px;
+    margin-left: -36px;
+  }
+
+  .drug-img_100, .drug-img_50-450, .drug-img_100-900 {
+    width: 321px;
+    height: 216px;
+  }
+
+  .animation-block__drug-block_img-block {
+    padding-top: 0;
+  }
+
+  .animation-block__btn {
+    width: 132px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B0E58;
+    filter: none;
+    border: 1px solid #5B0E58;
+    margin-bottom: 2px;
+  }
+
+  .animation-block__drug-block_set-block {
+    width: 132px;
+    gap: 12px;
+    position: relative;
+    left: calc(50% - 66px);
+  }
+
+  .animation-block__drug-block_set-block_vector-block {
+    gap: 15px;
+  }
+
+  .back-svg, .next-svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .back-svg > circle, path {
+    stroke: #5B0E58;
+  }
+
+  .next-svg > circle, path {
+    stroke: #5B0E58;
+  }
+
+  .disclaimer {
+    height: 62px;
+    min-width: 416px;
+    filter: none;
+    padding: 9px 13px 0 11px;
+    background: #F9F9F9;
+    border-radius: 18px;
+    position: absolute;
+    top: 456px;
+  }
+
+  .disclaimer-text {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.04em;
+  }
+
+  .close-svg {
+    width: 8px;
+    height: 9px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .desktop {
     display: none;
