@@ -35,12 +35,7 @@ a {
   margin: 0 auto;
 }
 
-/*.background {*/
-/*  background-color: var(--white-background);*/
-/*}*/
-
 /*header*/
-
 .header {
   padding-top: 31px;
   margin-bottom: 57px;
@@ -60,7 +55,7 @@ nav {
   width: 130px;
   height: 44px;
   background-color: var(--main-color);
-  border: none;
+  border: 1px solid #47093E;
   border-radius: 32px;
   font-family: 'Roboto';
   font-style: normal;
@@ -198,12 +193,6 @@ nav {
   top: 80px;
 }
 
-.disclaimer:active {
-  display: none;
-}
-
-
-
 .disclaimer-text {
   font-family: 'Roboto';
   font-style: normal;
@@ -216,21 +205,24 @@ nav {
   opacity: 0.7;
 }
 
+.disclaimer-close {
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+
 .close-svg {
   color: #8A8A8A;
   cursor: pointer;
 }
-
-/*.close-svg:active > .disclaimer {*/
-/*  display: none;*/
-/*}*/
 
 /*run-string*/
 .run-string {
   height: 94px;
   border-bottom: 1px solid #47093E;
   border-top: 1px solid #47093E;
-  margin: 101px auto;
+  margin-top: 150px;
+  margin-bottom: 101px;
   max-width: 100%;
   overflow: hidden;
 }
@@ -363,20 +355,6 @@ nav {
   text-decoration-line: underline;
   color: #590D56;
 }
-
-/*.content-block_content__svg-block {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*}*/
-
-/*.content-block_content__svg {*/
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*  align-items: center;*/
-/*  gap: 61px;*/
-/*  width: 848px;*/
-/*  height: 194px;*/
-/*}*/
 
 .content-block_content__svg-block {
   display: grid;
@@ -909,6 +887,29 @@ nav {
     width: 8px;
     height: 9px;
   }
+
+  .block-inf {
+    margin-top: 380px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 360px;
+  }
+
+  .block-inf_block {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    align-self: start;
+  }
+
+  .content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 128px;
+  }
 }
 
 @media only screen and (max-width: 416px) {
@@ -1048,6 +1049,27 @@ nav {
   .close-svg {
     width: 8px;
     height: 9px;
+  }
+
+  .block-inf {
+    margin-top: 380px;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 50px;
+  }
+
+  .block-inf_block {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    align-self: start;
+  }
+
+  .content-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
   }
 }
 

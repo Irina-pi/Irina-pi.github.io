@@ -35,7 +35,7 @@ body {
   height: 0;
 }
 
-.container {
+.container-PET1 {
   width: 100%;
   max-width: calc(var(--container-width) + var(--unit) * 4);
   padding: 0 calc(var(--unit) * 2);

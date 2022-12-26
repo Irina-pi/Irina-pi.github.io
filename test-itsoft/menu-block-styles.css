@@ -40,6 +40,8 @@ a {
 
 .menu-block_hrefs {
   margin-top: 154px;
+  position: relative;
+  z-index: 5;
 }
 
 .menu-block_txt {
@@ -51,6 +53,7 @@ a {
   color: var(--black);
   height: 107px;
   margin-left: 150px;
+  cursor: pointer;
 }
 
 .menu-block_txt:hover {
