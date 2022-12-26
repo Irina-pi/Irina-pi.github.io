@@ -1130,7 +1130,7 @@ input {
 /*for Block 5 */
 .block-five {
   display: grid;
-  grid-template: auto / repeat(3, 400px);
+  grid-template: auto / repeat(3, auto);
   padding: 120px 0;
   column-gap: 16px;
 }
@@ -1149,7 +1149,7 @@ input {
   height: 400px;
 }
 
-.block-fivee__img {
+.block-five__img {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 400px;
