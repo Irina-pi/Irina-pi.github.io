@@ -64,6 +64,10 @@ ul a {
   color: #cfcfff;
 }
 
+ul a:visited {
+  color: #c0c0ff;;
+}
+
 ul a:hover {
   color: #646489;
 }
