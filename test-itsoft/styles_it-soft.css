@@ -858,11 +858,7 @@ nav {
     height: 34px;
   }
 
-  .back-svg > circle, path {
-    stroke: #5B0E58;
-  }
-
-  .next-svg > circle, path {
+  .path-svg {
     stroke: #5B0E58;
   }
 
@@ -1021,11 +1017,7 @@ nav {
     height: 34px;
   }
 
-  .back-svg > circle, path {
-    stroke: #5B0E58;
-  }
-
-  .next-svg > circle, path {
+  .path-svg {
     stroke: #5B0E58;
   }
 
@@ -1182,11 +1174,7 @@ nav {
     height: 34px;
   }
 
-  .back-svg > circle, path {
-    stroke: #5B0E58;
-  }
-
-  .next-svg > circle, path {
+  .path-svg {
     stroke: #5B0E58;
   }
 
