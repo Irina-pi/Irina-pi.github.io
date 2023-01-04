@@ -1063,6 +1063,147 @@ nav {
     flex-direction: column;
     margin-top: 80px;
   }
+
+  .content-block_content__svg-block {
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 416px;
+  }
+
+  .circle-wave-svg, .circle-circle-svg {
+    margin-left: 25px;
+    width: 100px;
+  }
+
+  .circle-text {
+    font-size: 21px;
+  }
+
+  .circle-line-text {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .circle-line-svg {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 100px;
+  }
+
+  .outline-border {
+    width: 416px;
+    height: 154px;
+  }
+
+  .controls {
+    left: 11%;
+    margin-left: -95px;
+  }
+
+  .content-block_content__bgd-imgs {
+    gap: 10px;
+    margin-left: -5px;
+  }
+
+  .content-block_content__bgd-imgs__txt {
+    font-size: 23px;
+    width: 100px;
+  }
+
+  .content-block_content__bgd-imgs_food {
+    width: 150px;
+    height: 310px;
+    background-size: cover;
+  }
+
+  .content-block_content__bgd-imgs__txt_food {
+    width: 100px;
+    height: 310px;
+    padding-left: 13px;
+    padding-top: 19px;
+  }
+
+  .content-block_content__bgd-imgs_doctor {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    border-radius: 18px;
+  }
+
+  .content-block_content__bgd-imgs__txt_doctor, .content-block_content__bgd-imgs__txt_balance {
+    height: 150px;
+    width: 100px;
+    padding-left: 8px;
+    padding-top: 14px;
+  }
+
+  .content-block_content__bgd-imgs_balance {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    border-radius: 18px;
+  }
+
+  .content-block_content__bgd-imgs_bgd {
+    width: 310px;
+    height: 150px;
+    padding-left: 13px;
+    padding-top: 15px;
+  }
+
+  .content-block_content__bgd-imgs_btn {
+    width: 150px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .content-block_content__href-block_drug-img_100-900 {
+    width: 300px;
+  }
+
+  .content-block_content__href-block_drug-img_50-450 {
+    grid-area: 1 / 3 / 4 / 5;
+    width: 220px;
+  }
+
+  .content-block_content__href-block_href-block {
+    gap: 10px;
+    width: 416px;
+    margin-left: -5px;
+  }
+
+  .content-block_content__href-block_href {
+    width: 150px;
+    height: 47px;
+    font-size: 14px;
+  }
+
+  .disclaimer-footer {
+    height: 100px;
+    padding-top: 140px;
+    position: relative;
+    bottom: 80px;
+    width: 500px;
+  }
+
+  .disclaimer-footer_bgd {
+    height: 50px;
+  }
+
+  .disclaimer-footer_txt {
+    height: 50px;
+    padding: 10px 25px;
+  }
+
+  .contacts-address_txt {
+    font-size: 10px;
+  }
+
+  .pharm-studio-href {
+    font-size: 10px;
+    line-height: 11px;
+    gap: 10px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1180,7 +1321,8 @@ nav {
 
   .disclaimer {
     height: 62px;
-    min-width: 320px;
+    min-width: auto;
+    width: 310px;
     filter: none;
     padding: 9px 13px 0 11px;
     background: #F9F9F9;
@@ -1198,5 +1340,12 @@ nav {
   .close-svg {
     width: 8px;
     height: 9px;
+  }
+
+  .block-inf {
+    margin-top: 380px;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 15px;
   }
 }
